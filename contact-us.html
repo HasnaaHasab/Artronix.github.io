@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Artronix Register</title>
+
+        <!-- Google font -->
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <!-- Font Awesome Icon -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+        <!-- normalize -->
+        <link type="text/css" rel="stylesheet" href="css/normalize.css"/>
+        <!-- hover buttons -->
+        <link type="text/css" rel="stylesheet" href="css/hover.css"/>
+        <!-- owl carousel -->
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <!-- AOS css Library -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<!-- Custom stlylesheet -->
+        <link rel="stylesheet" href="css/MyOwlCarousel.css">
+		<link type="text/css" rel="stylesheet" href="css/index.css"/>
+        <link type="text/css" rel="stylesheet" href="css/contact-us.css"/>
+
+
+    </head>
+
+    <body data-spy='scroll' data-target='.navbar' data-offset='50' >
+        <section class="register-now-section" id="register-now-section">
+            <div class="container">
+                <div class="navbar-top logo-div">
+                    <img src="img/move-logo.png" alt="" class="company-logo"/>
+                </div>
+                <div class="register-form-div text-center">
+                    <form name="registeration-form" class="register-form">
+                        <div class="form-title">
+                            <span>
+                                <a href="index.html"><i class="fas fa-arrow-left back-to-home-icon"></i></a>
+                            </span>
+                            <span>REGISTERATION FORM</span>
+                        </div>
+
+                        <div class="form-body">
+                            <div class="form-group input-div">
+                                <input type="text" class="form-control form-input" id="username-input" placeholder="UserName" data-toggle="tooltip" title="Please enter your name" data-placement="right" minlength="3" maxlength="20" pattern="[a-z]{1,15}" oninvalid="setCustomValidity('Please enter alphabets only.')" required>
+                            </div>
+
+                            <div class="form-group input-div">
+                                <input type="email" class="form-control form-input" id="email-input" aria-describedby="emailHelp" placeholder="Email Address" data-toggle="tooltip" title="Please enter your email" data-placement="right" minlength="3" maxlength="20" required>
+                            </div>
+
+                            <div class="form-group input-div">
+                                <input type="tel" class="form-control form-input" id="phone-input" placeholder="Phone Number" data-toggle="tooltip" title="Please enter a valid number" data-placement="right" minlength="11" maxlength="15" pattern="[+-]?[0-9]" required>
+                            </div>
+
+                            <div class="form-group">
+                                    <div class="college-div input-div">
+                                        <input type="text" class="form-control form-input" placeholder="College" id="college" data-toggle="tooltip" title="Please enter your college" data-placement="right" minlength="3" maxlength="20">
+                                    </div>
+                                    <div class="university-div input-div">
+                                        <input type="text" class="form-control form-input" placeholder="University" id="university" data-toggle="tooltip" title="Please enter your university" data-placement="right" minlength="3" maxlength="20">
+                                    </div>
+                            </div>
+
+                            <div class="form-group input-div">
+                                <input type="text" class="form-control form-input" id="course-name-input" placeholder="Course Name" data-toggle="tooltip" title="Please type course name" data-placement="right" minlength="3" maxlength="20" required>
+                            </div>
+
+                            <select class="form-control select-div" data-toggle="tooltip" title="Please choose company branch" data-placement="right" minlength="3" maxlength="20" required>
+                                <option value="" disabled selected hidden>Branch</option>
+                                <option value="nasrCity">Nasr City</option>
+                                <option value="10thOfRamadanCity">10th Of Ramadan City</option>
+                            </select>
+
+                            <button type="submit" class="btn register-btn hvr-buzz">Register Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+		</section>
+
+
+
+        <button onclick="topFunction()" id="scroll-to-top-btn" title="Go to top" class="hvr-float">
+            <i class="fas fa-angle-double-up"></i>
+        </button>
+
+
+        <!-- js links -->
+        <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="js/popper.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <!-- cusotm js -->
+        <script type="text/javascript" src="js/contact-us.js"></script>
+
+    </body>
+</html>
